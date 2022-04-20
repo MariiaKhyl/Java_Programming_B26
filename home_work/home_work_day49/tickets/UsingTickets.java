@@ -1,4 +1,6 @@
-package home_work_day49;
+package home_work_day49.tickets;
+
+import home_work_day49.tickets.FlightTicket;
 
 public class UsingTickets {
     public static void main(String[] args) {

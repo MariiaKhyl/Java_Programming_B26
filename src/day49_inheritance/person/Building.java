@@ -1,6 +1,4 @@
-package day49_inheritance;
-
-import day17_18_04_12_13_2022.Student;
+package day49_inheritance.person;
 
 public class Building {
     public static void main(String[] args) {

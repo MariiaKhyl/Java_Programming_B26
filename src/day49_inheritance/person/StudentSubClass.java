@@ -1,4 +1,6 @@
-package day49_inheritance;
+package day49_inheritance.person;
+
+import day49_inheritance.person.Person;
 
 public class StudentSubClass extends Person {
 

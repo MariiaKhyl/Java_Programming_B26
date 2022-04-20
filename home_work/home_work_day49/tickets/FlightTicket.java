@@ -1,4 +1,4 @@
-package home_work_day49;
+package home_work_day49.tickets;
 
 public class FlightTicket {
 
