@@ -1,6 +1,4 @@
-package home_work_day49.sdet;
-
-import home_work_day49.sdet.Employee;
+package home_work_day45.sdet;
 
 public class Tester extends Employee {
     /*

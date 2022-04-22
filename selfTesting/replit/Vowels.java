@@ -9,9 +9,6 @@ public class Vowels {
         String word = input.nextLine();
 
 
-
-
-
         for (int i = 0; i < word.length(); i++) {
 
             char each = word.charAt(i);

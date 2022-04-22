@@ -1,4 +1,4 @@
-package home_work_day49.sdet;
+package home_work_day45.sdet;
 
 public class Employee {
     /*
@@ -9,11 +9,21 @@ public class Employee {
         work()
             Example output: prints $name is working
             */
-    String name, fullTime;
+    String name;
+    boolean fullTime;
     double salary;
 
     public void work(){
         System.out.println(name+" is working");
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", fullTime=" + fullTime +
+                ", salary=" + salary +
+                '}';
     }
 
     /*
