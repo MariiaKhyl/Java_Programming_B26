@@ -13,6 +13,8 @@ Character(unicode point) = 101
     public static void main(String[] args) {
         System.out.println(unicode("w3resource.com", 1));
     }
+
+
     public static int unicode (String str,int element){
 
         return str.charAt(element);

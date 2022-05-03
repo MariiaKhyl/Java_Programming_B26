@@ -11,7 +11,7 @@ Sample Output:
      */
     public static void main(String[] args) {
 
-        String str = "Python Exercise";
+        String str = "Python Exercises";
 
         System.out.println(endsWithSe(str));
     }

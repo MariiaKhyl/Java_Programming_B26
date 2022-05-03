@@ -9,16 +9,9 @@ public class stringYak {
 
         String strNew = "";
 
-        for (int i = 0; i < str.length() - 2; i++) {
-
-            if (str.length() > 3) {
-                if (str.charAt(i + 1) == 'y' && str.charAt(i + 2) == 'k') {
-                    strNew += str.charAt(i);
-                    return strNew;
-                }
-            }
-
+        if (str.contains("yak")) {
+            strNew = str.replace("yak", "");
         }
-        return str;
+        return strNew;
     }
 }

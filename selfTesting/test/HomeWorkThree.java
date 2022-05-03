@@ -12,6 +12,10 @@ str1[9 - 15] == str2[9 - 15]? false
     public static void main(String[] args) {
 
     }
+//    public static boolean findRegion( String str, String str2){
+//
+//
+//    }
 
 
 }
