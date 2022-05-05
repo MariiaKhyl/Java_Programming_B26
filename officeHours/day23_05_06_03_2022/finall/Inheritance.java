@@ -1,4 +1,4 @@
-package day23_05_03_2022.finall;
+package day23_05_06_03_2022.finall;
 
 public class Inheritance {
     /*
