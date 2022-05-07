@@ -1,5 +1,3 @@
-package day13_14_03_29_2022;
-
 import java.util.Arrays;
 
 public class P05_Fibonacci$ {
