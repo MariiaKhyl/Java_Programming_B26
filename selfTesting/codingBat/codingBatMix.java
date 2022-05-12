@@ -1,4 +1,4 @@
-package more;
+package codingBat;
 
 public class codingBatMix {
 /*
