@@ -9,6 +9,24 @@ public class Collections {
                 Ex;
                    input: [0, 2, 0, 0, 0, 3, 4, 5]
                    output: [2, 3, 4, 5, 0, 0, 0, 0]
+
+
+
+
+          int fixed [] = new int[arr.length];
+        int count=0;
+        for (int i = 0; i <arr.length ; i++) {
+            if (arr[i] != 0){
+                fixed[count++]=arr[i];
+            }
+        }
+        System.out.println(Arrays.toString(fixed));
+    }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ int arr [] = {0, 2, 0, 0, 0, 3, 4, 5};
+        moveZero(arr);
+
+
      */
 
     public static void main(String[] args) {
