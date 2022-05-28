@@ -8,6 +8,7 @@ Ex:  removeDup("AAABBBCCC") ==> ABC
      */
     public static void main(String[] args) {
         System.out.println(removeDuplicates("AAABBBCCC"));
+        System.out.println(returnUnique("hhhhhggggmk"));
     }
 
     public static String removeDuplicates(String str){
@@ -23,4 +24,31 @@ Ex:  removeDup("AAABBBCCC") ==> ABC
         }
         return unique;
     }
+
+    public static String returnUnique (String str){
+
+        String str2 = "";
+
+        for(int i =0; i < str.length(); i++){
+
+            if (!str2.contains(str.charAt(i)+"")){
+                str2+=str.charAt(i);
+            }
+        }
+        return str2;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

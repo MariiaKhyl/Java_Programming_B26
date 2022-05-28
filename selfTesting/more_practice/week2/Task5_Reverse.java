@@ -10,15 +10,25 @@ Ex: Reverse("ABCD"); ==> DCBA
         System.out.println(reverseString("ABCD"));
     }
 
-    public static String reverseString(String str){
+    public static String reverseString(String str) {
 
         String reverse = "";
 
-        for(int i = str.length()-1; i >= 0; i--){
-            reverse+=str.charAt(i)+"";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reverse += str.charAt(i) + "";
         }
-          return reverse;
+        return reverse;
 
     }
 
+    public static String Reverse1(String word) {
+
+        String reverse = "";
+
+        for (int i = 0; i < word.length(); i++) {
+            reverse = word.charAt(i) + reverse;
+        }
+        return reverse;
+
+    }
 }

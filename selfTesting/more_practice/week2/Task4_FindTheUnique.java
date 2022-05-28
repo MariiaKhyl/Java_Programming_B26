@@ -1,5 +1,9 @@
 package more_practice.week2;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
 public class Task4_FindTheUnique {
     /*
     4) String - Find the unique
@@ -11,22 +15,21 @@ Ex:  unique("AAABBBCCCDEF") ==> "DEF";
         System.out.println(uniqueChar("AAABBBCCCDEF"));
     }
 
-    public static String uniqueChar (String str){
+    public static String uniqueChar(String str) {
 
-        String unique = "";
-        int count = 0;
+        String result = "";
+        ArrayList<String> list = new ArrayList<>(Arrays.asList(str.split("")));
 
-        for(int i = 0; i < str.length(); i++){
+        for (String each : list) {
 
-            char current = str.charAt(i);
-            if (unique.indexOf(current) < 0){
-                unique+=current;
-            }else{
-                unique = unique.replace(String.valueOf(current),"");
+            int frequency = Collections.frequency(list, each);
+            if (result.contains(each)) {
+                continue;
             }
-
+            if (frequency <= 1) {
+                result += each;
+            }
         }
-        return unique;
+        return result;
     }
-
 }
